@@ -76,7 +76,7 @@ document.getElementById("logout").addEventListener("click", function (e) {
       } else {
         alert(resData.resMsg);
       }
-      window.location.href = "http://localhost";
+      window.location.href = "http://book.bigclouder.com";
       console.log(resData);
     });
 });
